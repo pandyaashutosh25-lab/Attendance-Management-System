@@ -1,0 +1,177 @@
+/* Smooth transition for theme switch */
+* {
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+/* 🌙 DARK MODE – Blue + Gray Modern Theme */
+body.dark-mode {
+    background-color: #1e1f25; /* Soft charcoal gray */
+    color: #e5e7eb; /* Light gray text */
+}
+
+/* Containers / Cards */
+body.dark-mode .container {
+    background-color: #2a2c33; /* Blue-tinted gray */
+    border: 1px solid #3d4048;
+    color: #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+}
+
+/* Navbar */
+body.dark-mode .navbar {
+    background-color: #2a2c33;
+    border-bottom: 3px solid #3b82f6; /* Softer blue accent */
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Tables */
+body.dark-mode table {
+    background-color: #2a2c33;
+    color: #e5e7eb;
+    border-collapse: collapse;
+}
+
+body.dark-mode th {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
+
+body.dark-mode td {
+    border-bottom: 1px solid #3d4048;
+}
+
+body.dark-mode tr:hover {
+    background-color: #34363f;
+}
+
+/* Inputs & Form Fields */
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea {
+    background-color: #3a3d44;
+    color: #f3f4f6;
+    border: 1px solid #54565d;
+    border-radius: 6px;
+}
+
+body.dark-mode input:focus,
+body.dark-mode select:focus,
+body.dark-mode textarea:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+    outline: none;
+}
+
+/* Buttons */
+body.dark-mode button,
+body.dark-mode .btn {
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(59, 130, 246, 0.3);
+}
+
+body.dark-mode button:hover,
+body.dark-mode .btn:hover {
+    background-color: #2563eb;
+    box-shadow: 0 3px 8px rgba(59, 130, 246, 0.45);
+}
+
+/* Links */
+body.dark-mode a {
+    color: #60a5fa;
+}
+
+body.dark-mode a:hover {
+    color: #93c5fd;
+    text-decoration: underline;
+}
+
+/* Footer */
+body.dark-mode footer {
+    color: #9ca3af;
+}
+
+/* ☀️ LIGHT MODE – Subtle Blue + Gray */
+body {
+    background-color: #f4f6f9;
+    color: #2d2f33;
+}
+
+.container {
+    background-color: #ffffff;
+    border: 1px solid #dfe3e8;
+    color: #2d2f33;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 3px solid #3b82f6;
+    color: #1f2937;
+}
+
+table {
+    background-color: #ffffff;
+    color: #2d2f33;
+}
+
+th {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
+
+td {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+tr:hover {
+    background-color: #f1f5f9;
+}
+
+input,
+select,
+textarea {
+    background-color: #ffffff;
+    color: #2d2f33;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.4);
+    outline: none;
+}
+
+button,
+.btn {
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #2563eb;
+}
+
+a {
+    color: #2563eb;
+}
+
+a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+footer {
+    color: #6b7280;
+}
